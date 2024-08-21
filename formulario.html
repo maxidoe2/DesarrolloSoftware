@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        #container {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        #cointainer nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #container nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        #container nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="container">
+            <h1>Formulario</h1>
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="tables.html">Tabla</a></li>
+                        <li><a href="formulario.html">Formulario</a></li>
+                        <li><a href="semantica.html">Semántica</a></li>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <form>
+        <div>
+            <label>Nombre</label>
+            <input type="text" placeholder="Ingrese su nombre" />
+        </div>
+        <br>
+        <div>
+            <label>Apellido</label>
+            <input type="text" placeholder="Ingrese su apellido" />
+        </div>
+        <br>
+        <div>
+            <label>Email</label>
+            <input type="email" placeholder="example@example.com" />
+        </div>
+        <br>
+        <div>
+            <label>Edad</label>
+            <input type="number" placeholder="Ingrese su edad" />
+        </div>
+        <br>
+        <div>
+            <label>Fecha Nacimiento</label>
+            <input type="date" />
+        </div>
+        <br>
+        <div>
+            <label>Contraseña</label>
+            <input type="password" placeholder="Ingrese su contraseña" />
+        </div>
+        <br>
+        <div>
+            <label>Describase usted mismo.</label>
+            <textarea placeholder="Información"></textarea>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
